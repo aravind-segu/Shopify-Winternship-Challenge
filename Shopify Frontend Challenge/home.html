@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopify FrontEnd Challenge</title>
+        <link rel="stylesheet" href = "./CSS/homePage.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <script src="./JS/home.js"></script>
+    </head>
+    <body>
+        <div class="content">
+            <div class = "text" id = "title">
+            Stay up to date with ecommerce trends with Shopify's newsletter
+            </div>
+        <br>
+
+        <div class="text" id = "caption">
+            Subscribe to Shopify's weekly newsletter for free marketing tips
+        </div>
+        <br>
+        <div class = "buttons" >
+            <input type="text" onkeyup="removeWarning()" onkeypress="removeWarning()" class = "textbox" placeholder = "Email Address" id = "textInput">
+            <div class = "button" onclick = "validateEmail ();">Sign up now</div>
+        </div>
+            <br>
+        <br>
+        <br>
+        <br>
+        <div class="errorText" id = "error">
+           Please enter a valid email address
+        </div>
+        <br>
+        <div class="text" id = "caption2">
+            Unsubscribe at any time.
+        </div>
+                </div>
+    </body>
+</html>

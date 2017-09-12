@@ -1,0 +1,74 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    background-color:#000639;
+    width: 100%;
+    margin: 0 auto;
+}
+.content{
+    margin-top: 36.25vh;
+}
+.text{
+     text-align: center;
+     color: #FFF;
+     font-family: "Open Sans";
+     margin: 0 auto;
+}
+#title{
+    font-size: 24px;
+    width: 500px;
+    font-weight: bold;
+}
+#caption{
+    font-size: 16px;
+    font-weight: lighter;
+}
+#caption2{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.textbox{
+    border-radius: 4px;
+    width: 25vw;
+    border: 1px solid;
+    height: 4vh;
+    padding: 1.38vh 1.30vw;
+    float: left;
+    margin-left: 30.7vw;
+}
+.buttons{
+    margin: 0 auto;
+    width: 100%;
+}
+.textbox::placeholder{
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+.button{
+    background-color: #5c6ac4;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 10vw;
+    height: 6.76vh;
+    border-radius: 4px;
+    float: left;
+    line-height:6.76vh;
+    margin-left: 1vw;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover{
+    text-decoration: underline;
+}
+.errorText{
+    font-size: 13px;
+    font-family: "Open Sans";
+     margin: 0 auto;
+     text-align: center;
+     color: #C23628;
+     visibility: hidden;
+}
